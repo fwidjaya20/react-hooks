@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ExampleUseStateHook from './use-state';
 import ExampleUseEffectHook from './use-effect';
 import ExampleUseContextHook from './use-context';
+import ExampleUseReducerHook from "./use-reducer";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path="/use-state" component={ExampleUseStateHook} />
         <Route path="/use-effect" component={ExampleUseEffectHook} />
         <Route path="/use-context" component={ExampleUseContextHook} />
+        <Route path="/use-reducer" component={ExampleUseReducerHook} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
